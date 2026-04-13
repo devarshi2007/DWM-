@@ -134,6 +134,5 @@ GROUP BY s.department, c.course_name
 ORDER BY s.department;
 """, conn))
 
-
 conn.close()
 '''
